@@ -1,0 +1,16 @@
+{
+  "name": "@llamaindex/llamaindex-test",
+  "private": true,
+  "version": "0.1.24",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "llamaindex": "workspace:*",
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "@llamaindex/openai": "workspace:*"
+  }
+}

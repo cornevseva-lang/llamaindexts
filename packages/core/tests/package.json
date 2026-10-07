@@ -1,0 +1,13 @@
+{
+  "name": "@llamaindex/core-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@llamaindex/core": "workspace:*",
+    "vitest": "^2.1.5",
+    "zod": "^4.1.5"
+  }
+}
